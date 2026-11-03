@@ -95,7 +95,7 @@
         <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
         <script>
             mapboxgl.accessToken =
-                "pk.eyJ1IjoiYW5kcmVzb3VzYWRvdHB0IiwiYSI6ImNsZnNvbHI0czAwZjgzZ3BleDRsd2pmMHYifQ.SYXdCqn3IGrIcJ7JmBAAkg";
+                "<MAPBOX_PUBLIC_TOKEN>";
             const map = new mapboxgl.Map({
                 container: "map", // container ID
                 style: "mapbox://styles/mapbox/streets-v12", // style URL

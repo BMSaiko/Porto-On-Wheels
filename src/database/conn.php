@@ -1,9 +1,9 @@
 <?php
 include("db.php");
 // Replace the variables with your database credentials
-$dbhost = "***REMOVED***";
-$dbuser = "root";
-$dbpass = "***REMOVED***";
+$dbhost = getenv('PORTOONWHEELS_DB_HOST') ?: 'localhost';
+$dbuser = getenv('PORTOONWHEELS_DB_USER') ?: 'root';
+$dbpass = getenv('PORTOONWHEELS_DB_PASSWORD') ?: '';
 $dbname = "portoonwheels";
 
 // Connect to the database
